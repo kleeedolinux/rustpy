@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="rustpy",
+    name="rustpy-useless",
     version="0.1.0",
     description="A Python library that parodies Rust with intentionally bad optimization",
-    author="RustPY Team",
+    author="Klee",
     author_email="porfavornaotenhoemail@gmail.com",
     packages=find_packages(),
     python_requires=">=3.7",
