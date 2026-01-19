@@ -11,8 +11,6 @@ class BorrowType(Enum):
     MUTABLE = "mutable"
     OWNED = "owned"
 
-BorrowChecker.BorrowType = BorrowType
-
 class BorrowState(Enum):
     ACTIVE = "active"
     DROPPED = "dropped"
